@@ -1,0 +1,8 @@
+<p style="margin-left: 50px;">{{course.title | lowercase | uppercase}}</p>
+<p style="margin-left: 50px;">{{course.students | number}}</p>
+<p style="margin-left: 50px;">{{course.rating | number: '2.1-1'}}</p>
+<p style="margin-left: 50px;">{{course.price | currency:'AUD':true}}</p>
+<p style="margin-left: 50px;">{{course.releaseDate | date:'shortDate'}}</p>
+
+
+<p style="margin-left: 20px;">{{text | summary:100}}</p>
